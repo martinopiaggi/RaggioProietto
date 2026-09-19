@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="288" viewBox="0 0 512 288" role="img" aria-label="RaggioProietto theme palette, dark and light">
+  <rect width="256" height="288" fill="#101010"/>
+  <rect x="16" y="16" width="224" height="40" rx="8" fill="#141414" stroke="#242728"/>
+  <circle cx="32" cy="36" r="4" fill="#ff6363"/>
+  <circle cx="46" cy="36" r="4" fill="#ffc531"/>
+  <circle cx="60" cy="36" r="4" fill="#59d499"/>
+  <text x="76" y="41" fill="#9c9c9d" font-family="Inter, Segoe UI, sans-serif" font-size="12">Dark</text>
+  <rect x="16" y="68" width="224" height="204" rx="10" fill="#141414" stroke="#242728"/>
+  <text x="28" y="92" fill="#6b6b6c" font-family="Inter, Segoe UI, sans-serif" font-size="11">Search notes…</text>
+  <line x1="28" y1="102" x2="228" y2="102" stroke="#242728"/>
+  <rect x="22" y="112" width="212" height="28" rx="6" fill="#1a1a1a"/>
+  <text x="32" y="130" fill="#f4f4f6" font-family="Inter, Segoe UI, sans-serif" font-size="11">Open command palette</text>
+  <text x="32" y="164" fill="#9c9c9d" font-family="Inter, Segoe UI, sans-serif" font-size="11">Quick switcher</text>
+  <text x="32" y="188" fill="#9c9c9d" font-family="Inter, Segoe UI, sans-serif" font-size="11">Toggle light mode</text>
+  <rect x="28" y="240" width="10" height="10" rx="2" fill="#ff6363"/>
+  <rect x="42" y="240" width="10" height="10" rx="2" fill="#59d499"/>
+  <rect x="56" y="240" width="10" height="10" rx="2" fill="#56c2ff"/>
+  <rect x="70" y="240" width="10" height="10" rx="2" fill="#ffc531"/>
+  <rect x="84" y="240" width="10" height="10" rx="2" fill="#ff9217"/>
+  <rect x="98" y="240" width="10" height="10" rx="2" fill="#c7a6ff"/>
+
+  <rect x="256" width="256" height="288" fill="#ffffff"/>
+  <rect x="272" y="16" width="224" height="40" rx="8" fill="#f7f7f7" stroke="#e4e4e4"/>
+  <circle cx="288" cy="36" r="4" fill="#ff6363"/>
+  <circle cx="302" cy="36" r="4" fill="#c7920e"/>
+  <circle cx="316" cy="36" r="4" fill="#006b4f"/>
+  <text x="332" y="41" fill="#6b6b6b" font-family="Inter, Segoe UI, sans-serif" font-size="12">Light</text>
+  <rect x="272" y="68" width="224" height="204" rx="10" fill="#f7f7f7" stroke="#e4e4e4"/>
+  <text x="284" y="92" fill="#9c9c9d" font-family="Inter, Segoe UI, sans-serif" font-size="11">Search notes…</text>
+  <line x1="284" y1="102" x2="484" y2="102" stroke="#e4e4e4"/>
+  <rect x="278" y="112" width="212" height="28" rx="6" fill="#efefef"/>
+  <text x="288" y="130" fill="#1a1a1a" font-family="Inter, Segoe UI, sans-serif" font-size="11">Open command palette</text>
+  <text x="288" y="164" fill="#6b6b6b" font-family="Inter, Segoe UI, sans-serif" font-size="11">Quick switcher</text>
+  <text x="288" y="188" fill="#6b6b6b" font-family="Inter, Segoe UI, sans-serif" font-size="11">Toggle dark mode</text>
+  <rect x="284" y="240" width="10" height="10" rx="2" fill="#ff6363"/>
+  <rect x="298" y="240" width="10" height="10" rx="2" fill="#006b4f"/>
+  <rect x="312" y="240" width="10" height="10" rx="2" fill="#0b6eaa"/>
+  <rect x="326" y="240" width="10" height="10" rx="2" fill="#c7920e"/>
+  <rect x="340" y="240" width="10" height="10" rx="2" fill="#c75d07"/>
+  <rect x="354" y="240" width="10" height="10" rx="2" fill="#6e56cf"/>
+</svg>
