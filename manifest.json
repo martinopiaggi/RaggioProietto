@@ -1,8 +1,7 @@
 {
 	"name": "RaggioProietto",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "1.6.0",
 	"author": "Martino Piaggi",
-	"authorUrl": "https://github.com/martinopiaggi",
-	"screenshot": "screenshots/screenshot.png"
+	"authorUrl": "https://github.com/martinopiaggi"
 }
