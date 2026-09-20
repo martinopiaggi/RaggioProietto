@@ -6,6 +6,12 @@ A sleek, modern Obsidian theme with a touch of coral, inspired by the Raycast ap
 
 ![Palette](screenshots/palette.svg)
 
+## Preview
+
+| Light | Dark |
+| --- | --- |
+| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+
 ## Features
 
 - Dark and light from **Appearance → Base color scheme**
