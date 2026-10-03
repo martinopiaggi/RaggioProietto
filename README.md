@@ -15,7 +15,7 @@ A sleek, modern Obsidian theme with a touch of coral, inspired by the Raycast ap
 ## Features
 
 - Dark and light from **Appearance → Base color scheme**
-- Coral accent (`#ff6363`) on controls in both modes
+- Coral accent by default; respects **Settings → Appearance → Accent color**
 - Command palette, menus, and settings with hairline borders, 6–12px radii, and keycap-style hotkeys
 - Inter for UI and reading, JetBrains Mono for code
 
@@ -27,13 +27,13 @@ A sleek, modern Obsidian theme with a touch of coral, inspired by the Raycast ap
 | Code | `#141414` | `#f7f7f7` |
 | Text | `#f4f4f6` | `#1a1a1a` |
 | Accent | `#ff6363` | `#ff6363` |
-| Links | `#ff6363` | `#b12424` |
+| Links | accent color | darkened accent color |
 | Green | `#59d499` | `#006b4f` |
 | Blue | `#56c2ff` | `#0b6eaa` |
 | Yellow | `#ffc531` | `#c7920e` |
 | Orange | `#ff9217` | `#c75d07` |
 
-Light links use a darker red so they keep contrast on white. Syntax colors are shifted the same way.
+Light links are darkened for contrast. Syntax colors are shifted the same way.
 
 ## Install
 

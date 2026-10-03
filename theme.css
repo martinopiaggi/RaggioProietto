@@ -96,12 +96,12 @@ body {
 .theme-light {
   --accent-h: 0;
   --accent-s: 100%;
-  --color-accent: #ff6363;
-  --interactive-accent: #ff6363;
-  --text-accent: #ff6363;
+  --color-accent: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --interactive-accent: var(--color-accent);
+  --text-accent: var(--color-accent);
   --text-on-accent: #ffffff;
   --text-on-accent-inverted: #101010;
-  --checkbox-color: #ff6363;
+  --checkbox-color: var(--color-accent);
   --checkbox-color-hover: var(--ray-accent-hover);
   --checkbox-border-color: var(--text-faint);
   --tag-color: var(--text-muted);
@@ -115,7 +115,7 @@ body {
   --background-modifier-active-hover: var(--ray-elevated);
   --background-modifier-border: var(--ray-hairline);
   --background-modifier-border-hover: var(--ray-hairline-strong);
-  --background-modifier-border-focus: color-mix(in srgb, #ff6363 55%, transparent);
+  --background-modifier-border-focus: color-mix(in srgb, var(--color-accent) 55%, transparent);
   --interactive-normal: var(--ray-surface-2);
   --interactive-hover: var(--ray-elevated);
   --interactive-accent-hover: var(--ray-accent-hover);
@@ -173,7 +173,7 @@ body {
   --graph-line: var(--ray-hairline-strong);
   --graph-node: var(--ray-text-muted);
   --graph-node-unresolved: var(--ray-text-faint);
-  --graph-node-focused: #ff6363;
+  --graph-node-focused: var(--color-accent);
   --graph-node-tag: var(--color-blue);
   --graph-node-attachment: var(--color-orange);
   --graph-text: var(--ray-text-muted);
@@ -196,7 +196,7 @@ body {
 }
 
 .theme-dark {
-  --accent-l: 69%;
+  --accent-l: 69.4%;
   --ray-surface: #101010;
   --ray-surface-2: #141414;
   --ray-elevated: #1a1a1a;
@@ -206,9 +206,9 @@ body {
   --ray-text: #f4f4f6;
   --ray-text-muted: #9c9c9d;
   --ray-text-faint: #6b6b6c;
-  --ray-accent-hover: #ff8585;
-  --ray-selection: rgba(255, 99, 99, 0.28);
-  --ray-highlight: rgba(255, 99, 99, 0.22);
+  --ray-accent-hover: color-mix(in oklch, var(--color-accent), var(--ray-text) 20%);
+  --ray-selection: color-mix(in srgb, var(--color-accent) 28%, transparent);
+  --ray-highlight: color-mix(in srgb, var(--color-accent) 22%, transparent);
   --ray-scrim: rgba(0, 0, 0, 0.55);
   --ray-shadow: 0 24px 64px rgba(0, 0, 0, 0.55), 0 2px 12px rgba(0, 0, 0, 0.35);
   --color-red-rgb: 255, 99, 99;
@@ -243,7 +243,7 @@ body {
 }
 
 .theme-light {
-  --accent-l: 69%;
+  --accent-l: 69.4%;
   --ray-surface: #ffffff;
   --ray-surface-2: #f7f7f7;
   --ray-elevated: #efefef;
@@ -253,9 +253,9 @@ body {
   --ray-text: #1a1a1a;
   --ray-text-muted: #6b6b6b;
   --ray-text-faint: #9c9c9d;
-  --ray-accent-hover: #e23e3e;
-  --ray-selection: rgba(255, 99, 99, 0.18);
-  --ray-highlight: rgba(255, 99, 99, 0.22);
+  --ray-accent-hover: color-mix(in oklch, var(--color-accent), var(--ray-text) 20%);
+  --ray-selection: color-mix(in srgb, var(--color-accent) 18%, transparent);
+  --ray-highlight: color-mix(in srgb, var(--color-accent) 22%, transparent);
   --ray-scrim: rgba(16, 16, 16, 0.28);
   --ray-shadow: 0 24px 64px rgba(16, 16, 16, 0.16), 0 4px 16px rgba(16, 16, 16, 0.06);
   --color-red-rgb: 177, 36, 36;
@@ -287,9 +287,8 @@ body {
   --color-base-70: #4a4a4a;
   --color-base-100: #1a1a1a;
   --canvas-color: 224, 224, 224;
-  --text-accent: #b12424;
-  --text-accent-hover: #8f1c1c;
-  --interactive-accent: #ff6363;
+  --text-accent: color-mix(in oklch, var(--color-accent), var(--ray-text) 25%);
+  --text-accent-hover: color-mix(in oklch, var(--color-accent), var(--ray-text) 35%);
 }
 
 .markdown-rendered a,
@@ -503,7 +502,7 @@ button.mod-cta {
 }
 
 button.mod-cta {
-  background-color: #ff6363;
+  background-color: var(--interactive-accent);
   color: #ffffff;
 }
 
@@ -572,7 +571,7 @@ hr.cm-line {
 
 .cm-active .cm-cursor,
 .cm-cursor {
-  border-color: #ff6363;
+  border-color: var(--color-accent);
 }
 
 .workspace-leaf.mod-active .workspace-tab-header.is-active::after,
@@ -583,11 +582,11 @@ hr.cm-line {
 .progress-bar-value,
 .slider:hover::-webkit-slider-thumb,
 input[type="range"]::-webkit-slider-thumb {
-  background-color: #ff6363;
+  background-color: var(--color-accent);
 }
 
 .checkbox-container.is-enabled {
-  background-color: #ff6363;
+  background-color: var(--checkbox-color);
 }
 
 .mod-highlighted,
@@ -602,5 +601,5 @@ input[type="range"]::-webkit-slider-thumb {
 
 .kanban-plugin__lane,
 .excalidraw .excalidraw-container {
-  --color-primary: #ff6363;
+  --color-primary: var(--color-accent);
 }
